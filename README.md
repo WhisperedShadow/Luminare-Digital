@@ -7,7 +7,6 @@ Welcome to the Luminare Digital portfolio website repository. This project is a 
 ### Prerequisites
 
 - Python 3.x
-- Node.js
 - MySQL database
 - Mailjet API (for email functionality)
 
