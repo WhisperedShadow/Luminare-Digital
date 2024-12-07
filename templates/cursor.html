@@ -1,0 +1,24 @@
+<div id="cursor"></div>
+<style>
+  #cursor {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(25, 25, 112, 0.4);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    position: fixed;
+    border-radius: 50%;
+    z-index: 10000000000;
+    bottom: 0;
+    right: 0;
+    transition: 0.5s;
+  }
+</style>
+<script>
+  const cursor = document.getElementById("cursor");
+  const cursorevent = (e) => {
+    cursor.style.left = `${e.clientX}px`;
+    cursor.style.top = `${e.clientY}px`;
+  };
+
+  document.body.addEventListener("mousemove", cursorevent);
+</script>
