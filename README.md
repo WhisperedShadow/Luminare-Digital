@@ -1,6 +1,6 @@
 ﻿# Luminare Digital - Digital Marketing Company Portfolio
 
-Welcome to the Luminare Digital portfolio website repository. This project is a digital marketing company portfolio, built using HTML, CSS, JavaScript, Flask, and MySQL.
+Welcome to the Luminare Digital portfolio website repository. This project is a digital marketing company portfolio, built using HTML, CSS, JavaScript, MailJet, Flask, and MySQL.
 
 ## Project Setup
 
